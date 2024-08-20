@@ -58,7 +58,7 @@ graph LR
 
   # Semantics error
   func sum(a, b): # Missing return statement
-      a + b
+      a - b
   
   # Correct code
   def sum(a, b):
@@ -279,4 +279,4 @@ Test your knowledge of programming logic with this [quiz](Quiz.md).
 
 ## Exercises
 
-Practice what you've learned with these [exercises](Exercises.md).
+Quiero un pan con crema de avellanas y un café con leche.
