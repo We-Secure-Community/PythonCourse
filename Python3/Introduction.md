@@ -166,7 +166,7 @@ Programming logic is the process of creating a sequence of instructions to solve
   - **Operators**: Symbols that perform operations on data, such as arithmetic, comparison, and logical operations.
 
     ```python
-    # Arithmetic operators
+    # Arithmetic operators returns a scalar result
     x = 10 + 5 # Addition
     y = 10 - 5 # Subtraction
     z = 10 * 5 # Multiplication
@@ -175,15 +175,17 @@ Programming logic is the process of creating a sequence of instructions to solve
     u = 10 ** 5 # Exponentiation
     t = 10 // 5 # Floor division
 
-    # Comparison operators
+    # Comparison operators returns a boolean result
     a = 10 == 5 # Equal to
+    # a = 10 === 5 # Exaclty the same
     b = 10 != 5 # Not equal to
+    # b = 10 !== 5 # Distinct to
     c = 10 > 5 # Greater than
     d = 10 < 5 # Less than
     e = 10 >= 5 # Greater than or equal to
     f = 10 <= 5 # Less than or equal to
 
-    # Logical operators
+    # Logical operators return a boolean result
     g = True and False # Logical AND
     h = True or False # Logical OR
     i = not True # Logical NOT
@@ -192,18 +194,19 @@ Programming logic is the process of creating a sequence of instructions to solve
   - **Control Structures**: Constructs that control the flow of a program, such as loops and conditionals.
 
     ```python
-    # Conditional statements
-    if x > 0:
+    # Conditional statements validate boolean values
+    if x > 0: # Continues when is true
         print("Positive")
-    elif x < 0:
+    elif x < 0: # Continues when last validations was false and this validation is true
         print("Negative")
-    else:
+    else: # Goes when every single past validations was false
         print("Zero")
 
-    # Loops
+    # Loops iterates over every single item into an array
     for i in range(10):
         print(i)
 
+    # Iterates when the condition is true
     while x < 10:
         print(x)
         x += 1
@@ -252,6 +255,23 @@ Pseudo code is a high-level description of a computer program or algorithm that 
         return sum
     ```
 
+    ```pseudo
+    /* 
+      Bloque de codigo que me ayuda a sumar los numeros naturales empezando desde 0 hasta un numero limite
+    */
+    funcion suma_de_numeros_naturales(numero_limite)
+      # empezamos desde 0 ya que si empezamos desde -1 en lugar de sumar restamos
+      variable suma = 0
+
+      # iteramos/recorremos/visitamos todos los numeros mayores a cero y menores e iguales al numero limite
+      iteramos idx desde 1 hasta n
+        # sumamos a la variable suma el valor que contiene + el numero visitado actualmente
+        suma = suma + idx
+
+      # retornamos la variable suma y regresamos el control del flujo al programa principal
+      retornamos suma
+    ```
+
   - **Implementation**:
 
     ```python
@@ -263,6 +283,8 @@ Pseudo code is a high-level description of a computer program or algorithm that 
 
     print(sum_of_natural_numbers(10)) # Output: 55
     ```
+
+## Exercise 1
 
 ## Projects
 
