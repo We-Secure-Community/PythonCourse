@@ -301,4 +301,5 @@ Test your knowledge of programming logic with this [quiz](Quiz.md).
 
 ## Exercises
 
-Quiero un pan con crema de avellanas y un café con leche.
+- [ ] Quiero un pan con crema de avellanas y un café con leche.
+- [ ] 

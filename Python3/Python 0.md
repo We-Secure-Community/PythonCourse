@@ -32,6 +32,10 @@ Python is a high-level programming language, with applications in numerous areas
 | 4. | Compilation errors prevent code from compiling. | Interpreters stop translating the code as soon as they encounter an error. |
 | 5. | It is used in C, C++, etc. | It is used in Python, Ruby, etc. |
 
+#### PS Python cloud be compiled for performance
+
+[Python to Binary](https://www.baeldung.com/linux/python-binary)
+
 #### Python
 
 Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.

@@ -1,5 +1,63 @@
 # Programming routes
 
+## Programming Logic
+
+- [ ] Even or Odd
+  - Problem: Write a program that prints whether a number is even or odd.
+  - Objective: Practice using conditionals.
+
+- [ ] Sum of Numbers
+  - Problem: Write a program that asks the user for 10 numbers and then prints the sum of those numbers.
+  - Objective: Work with loops, user input, and accumulation of values.
+
+- [ ] Factorial of a Number
+  - Problem: Write a program that calculates the factorial of a number entered by the user.
+  - Objective: Practice recursion or iteration with loops.
+
+- [ ] Reverse Strings
+  - Problem: Write a program that reverses a string entered by the user.
+  - Objective: Practice working with strings and loops.
+
+- [ ] FizzBuzz
+  - Problem: Write a program that prints the numbers from 1 to 100, but for multiples of 3 print "Fizz" instead of the number, and for multiples of 5 print "Buzz". For numbers that are multiples of both, print "FizzBuzz".
+  - Objective: Develop conditional logic and work with modular operators.
+
+- [ ] Prime Numbers
+  - Problem: Write a program that determines whether a number entered by the user is prime or not.
+  - Objective: Practice creating functions and using loops.
+
+- [ ] Sum of Digits
+  - Problem: Write a program that calculates the sum of the digits of an integer entered by the user.
+  - Objective: Practice working with numbers and loops.
+
+- [ ] Sort a List
+  - Problem: Write a program that sorts a list of numbers in ascending order.
+  - Objective: Implement and understand basic sorting algorithms like bubble sort.
+
+- [ ] Fibonacci Sequence
+  - Problem: Write a program that prints the first n numbers of the Fibonacci sequence, where n is entered by the user.
+  - Objective: Practice recursion or iteration and work with mathematical series.
+
+- [ ] Word Counter
+  - Problem: Write a program that counts how many times each word appears in a text entered by the user.
+  - Objective: Work with strings, dictionaries, and loops.
+
+- [ ] Palindrome Checker
+  - Problem: Write a program that checks if a word entered by the user is a palindrome.
+  - Objective: Practice working with strings and conditionals.
+
+- [ ] Anagram Checker
+  - Problem: Write a program that checks if two words entered by the user are anagrams of each other.
+  - Objective: Work with strings and dictionaries.
+
+- [ ] Caesar Cipher
+  - Problem: Write a program that encrypts or decrypts a message using the Caesar cipher.
+  - Objective: Practice working with strings and encryption algorithms.
+
+- [ ] Hannoi Tower
+  - Problem: Write a program that solves the Tower of Hanoi puzzle for n disks.
+  - Objective: Practice recursion and solving mathematical problems.
+
 ## Small Projects
 
 - [ ] Number Guessing Game
