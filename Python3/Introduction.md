@@ -177,6 +177,7 @@ Programming logic is the process of creating a sequence of instructions to solve
 
     # Comparison operators returns a boolean result
     a = 10 == 5 # Equal to
+    a = "Hola" == "hola" # Equal to
     # a = 10 === 5 # Exaclty the same
     b = 10 != 5 # Not equal to
     # b = 10 !== 5 # Distinct to
@@ -219,6 +220,8 @@ Programming logic is the process of creating a sequence of instructions to solve
         return f"Hello, {name}!"
 
     print(greet("Alice")) # Output: Hello, Alice!
+    print(greet("Bob")) # Output: Hello, Bob!
+    print(greet("Charlie")) # Output: Hello, Charlie!
       ```
 
   - **Error Handling**: Techniques for handling errors and exceptions that may occur during program execution.
@@ -249,6 +252,14 @@ Pseudo code is a high-level description of a computer program or algorithm that 
 
     ```pseudo
     function sum_of_natural_numbers(n)
+        sum = 0
+        for i = 1 to n
+            sum = sum + i
+        return sum
+    ```
+    
+    ```pseudo
+    funcion suma_de_numeros_naturales(n)
         sum = 0
         for i = 1 to n
             sum = sum + i
@@ -286,6 +297,18 @@ Pseudo code is a high-level description of a computer program or algorithm that 
 
 ## Exercise 1
 
+- Escribir programa que nos diga si un numero es par o impar.
+
+```pseudo
+function numero_par_o_impar(numero)
+    if numero % 2 == 0 # 10 / 2 = 5 y 0 de residuo
+        return "Par"
+    else
+        return "Impar"
+
+numbero_par_o_impar(10) # Par
+```
+
 ## Projects
 
 - [Calculator](Calculator.md)
@@ -302,4 +325,8 @@ Test your knowledge of programming logic with this [quiz](Quiz.md).
 ## Exercises
 
 - [ ] Quiero un pan con crema de avellanas y un café con leche.
-- [ ] 
+- [ ] [Ver Ruta de Ejercicios, Parte 1](Routes.md)
+
+## Investigacion
+
+- Tablas de verdad (básico)

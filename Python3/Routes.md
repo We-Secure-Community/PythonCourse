@@ -10,21 +10,21 @@
   - Problem: Write a program that asks the user for 10 numbers and then prints the sum of those numbers.
   - Objective: Work with loops, user input, and accumulation of values.
 
-- [ ] Factorial of a Number
-  - Problem: Write a program that calculates the factorial of a number entered by the user.
-  - Objective: Practice recursion or iteration with loops.
+- [ ] FizzBuzz
+  - Problem: Write a program that prints the numbers from 1 to 100, but for multiples of 3 print "Fizz" instead of the number, and for multiples of 5 print "Buzz". For numbers that are multiples of both, print "FizzBuzz".
+  - Objective: Develop conditional logic and work with modular operators.
 
 - [ ] Reverse Strings
   - Problem: Write a program that reverses a string entered by the user.
   - Objective: Practice working with strings and loops.
 
-- [ ] FizzBuzz
-  - Problem: Write a program that prints the numbers from 1 to 100, but for multiples of 3 print "Fizz" instead of the number, and for multiples of 5 print "Buzz". For numbers that are multiples of both, print "FizzBuzz".
-  - Objective: Develop conditional logic and work with modular operators.
-
 - [ ] Prime Numbers
   - Problem: Write a program that determines whether a number entered by the user is prime or not.
   - Objective: Practice creating functions and using loops.
+
+- [ ] Factorial of a Number
+  - Problem: Write a program that calculates the factorial of a number entered by the user.
+  - Objective: Practice recursion or iteration with loops.
 
 - [ ] Sum of Digits
   - Problem: Write a program that calculates the sum of the digits of an integer entered by the user.
