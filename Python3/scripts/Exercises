@@ -1,0 +1,81 @@
+"""Even or Odd
+
+Problem: Write a program that prints whether a number is even or odd.
+Objective: Practice using conditionals."""
+
+# Función para comprobar si un número es par o impar
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Input del usuario
+num = int(input("Enter a number: "))
+
+# Output del resultado
+print(f"The number {num} is {check_even_odd(num)}.")
+
+"""Sum of Numbers
+
+Problem: Write a program in Python that asks the user for 10 numbers and then prints the sum of those numbers.
+Objective: Work with loops, user input, and accumulation of values."""
+
+# Iniciamos la suma en 0
+total_sum = 0
+
+# Ciclo de los diez número sel usuario
+for i in range(10):
+    number = int(input(f"Enter number {i}: "))
+    total_sum += number
+
+# Mostrar el resultado
+print(f"The sum of the 10 numbers is: {total_sum}")
+
+"""Prime Numbers
+
+Problem: Write a program in Python that determines whether a number entered by the user is prime or not.
+Objective: Practice creating functions and using loops."""
+
+# Función para saber si un número es primo o no
+def is_prime(number):
+    if number <= 1:
+        return False
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            return False
+    return True
+
+# Input del usuario
+num = int(input("Enter a number: "))
+
+# Output del resultado
+if is_prime(num):
+    print(f"The number {num} is a prime number.")
+else:
+    print(f"The number {num} is not a prime number.")
+
+"""Si el usuario ingresa el número 29:
+
+La función es_primo verifica si 29 es divisible por algún número entre 2 y la raíz cuadrada de 29 (aproximadamente 5.39).
+Como 29 no es divisible por ninguno de estos números, 
+la función retorna True y el programa imprime “29 es un número primo.”"""
+
+"""Sum of Digits
+
+Problem: Write a program in Python that calculates the sum of the digits of an integer entered by the user.
+Objective: Practice working with numbers and loops."""
+
+def sumar_digitos(numero):
+    suma = 0
+    while numero > 0:
+        digito = numero % 10  # Obtiene el último dígito
+        suma += digito  # Suma el dígito a la suma total
+        numero = numero // 10  # Elimina el último dígito
+    return suma
+
+# Solicitar al usuario que ingrese un número
+numero = int(input("Introduce un número: "))
+resultado = sumar_digitos(numero)
+print(f"La suma de los dígitos de {numero} es {resultado}")
+
